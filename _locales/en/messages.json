@@ -1,0 +1,15 @@
+{
+  "ext_description": {
+    "message": "Open selected username in a new tab",
+    "description": ""
+  },
+  "contextmenu_parent": {
+    "message": "Open \"$searchStr$\" in",
+    "description": "",
+    "placeholders":{
+        "searchStr": {
+            "content": "$1"
+        }
+    }
+}
+}

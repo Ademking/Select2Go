@@ -1,0 +1,18 @@
+{
+    "ext_description": {
+        "message": "Ouvrir le nom d'utilisateur sélectionné dans un nouvel onglet",
+        "description": ""
+    },
+    "contextmenu_parent": {
+        "message": "Ouvrir \"$searchStr$\" dans",
+        "description": "",
+        "placeholders":{
+            "searchStr": {
+                "content": "$1"
+            }
+        }
+    }
+
+
+    
+}
