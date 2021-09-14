@@ -10,6 +10,7 @@ Select2Go is very useful for opening social media accounts (Twitter, Facebook, I
 
 This is a great extension for people who always want to follow someone but forget their username. It works like this: You’re checking out a website and you see a username. You’re like, “I really should follow him/her” and then you forget the username. With this extension you just select the username and it will open it in a new tab
 
+### [Download from Chrome Web Store](https://chrome.google.com/webstore/detail/select2go/lifigilhheflkkbhaenilambglkgihbp)
 
 ### Installation Instructions (from GituHub):
 
