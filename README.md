@@ -29,6 +29,8 @@ This is a great extension for people who always want to follow someone but forge
 
 ### Changelog
 
+__1.1__ (15/09/2021) : Add "Facebook (by Id or Username)" + "Facebook (by Name)"
+
 __1.0__ (13/09/2021) : First version
 
 ### Author

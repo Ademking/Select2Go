@@ -1,6 +1,6 @@
 /**
  * Select2Go
- * Version: 1.0.0
+ * Version: 1.1
  * Author: Adem Kouki <ademkingnew@gmail.com>
  * Github: https://github.com/Ademking/Select2Go
  */
