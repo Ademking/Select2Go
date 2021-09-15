@@ -19,14 +19,26 @@ const openInstagram = str => {
 }
 
 // Facebook
-const openFb = str => {
-  let selectedUsername = str.selectionText
+// Open by Id or username
+const openFbByIdOrUsername = str => {
+  let selectedId = str.selectionText
   .replace(' ', '')
   .replace(/fb:/i, "")
   .replace(/facebook:/i, "")
   .replace(/[&\/\\#,+()$~%'":*?<>{}]/g, '')
   chrome.tabs.create({
-    url: "https://facebook.com/" + selectedUsername
+    url: "https://facebook.com/" + selectedId
+  });
+}
+// Open by name
+const openFbByName = str => {
+  let selectedName = str.selectionText
+  .replace(' ', '')
+  .replace(/fb:/i, "")
+  .replace(/facebook:/i, "")
+  .replace(/[&\/\\#,+()$~%'":*?<>{}]/g, '')
+  chrome.tabs.create({
+    url: "https://www.facebook.com/search/people/?q=" + selectedName
   });
 }
 
@@ -90,8 +102,12 @@ const childMenus = [
     onclick: openInstagram
   },
   {
-    menu: "Facebook",
-    onclick: openFb
+    menu: "Facebook (by Id or Username)",
+    onclick: openFbByIdOrUsername
+  },
+  {
+    menu: "Facebook (by Name)",
+    onclick: openFbByName
   },
   {
     menu: "Github",
